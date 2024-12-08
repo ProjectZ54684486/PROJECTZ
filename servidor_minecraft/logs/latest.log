@@ -4737,3 +4737,17 @@ com.google.gson.JsonSyntaxException: Missing conditions, expected to find a Json
 [08Dec2024 21:46:40.225] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity zombie_island:runner but it was marked as removed already
 [08Dec2024 21:48:08.873] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity zombie_island:shambler but it was marked as removed already
 [08Dec2024 21:48:24.073] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity zombie_island:shambler but it was marked as removed already
+[08Dec2024 21:49:13.932] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Tomiokiii lost connection: Timed out
+[08Dec2024 21:49:13.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tomiokiii left the game
+[08Dec2024 21:54:00.976] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@c606529[id=<null>,name=Tomiokiii,properties={},legacy=false] (/[::1]:48398): Took too long to log in
+[08Dec2024 21:54:00.977] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@c606529[id=<null>,name=Tomiokiii,properties={},legacy=false] (/[::1]:48398) lost connection: Took too long to log in
+[08Dec2024 21:54:01.021] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Dec2024 21:54:46.136] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Tomiokiii[/[::1]:60810] logged in with entity id 1444 at (-2.798346686716515, 105.0, 7.756591564190281)
+[08Dec2024 21:54:46.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tomiokiii joined the game
+[08Dec2024 21:56:34.024] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity zombie_island:shambler but it was marked as removed already
+[08Dec2024 21:56:34.025] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity zombie_island:shambler but it was marked as removed already
+[08Dec2024 21:56:47.673] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity zombie_island:shambler but it was marked as removed already
+[08Dec2024 21:57:03.123] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity zombie_island:walker but it was marked as removed already
+[08Dec2024 21:57:13.324] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity zombie_island:shambler but it was marked as removed already
+[08Dec2024 21:57:55.423] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity zombie_island:shambler but it was marked as removed already
+[08Dec2024 21:58:26.223] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity zombie_island:shambler but it was marked as removed already

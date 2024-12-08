@@ -19,6 +19,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:birch_forest": "2024-12-08 21:46:36 +0000",
       "minecraft:forest": "2024-12-08 05:46:46 +0000"
     },
     "done": false
