@@ -1,38 +1,4 @@
 
-["Sound System"]
-	#Whether to turn on the sound system.
-	#This system will cause the mobs attracted by sound.
-	"Turn on Sound System" = true
-	#The sound will attract mobs.
-	#Format: "minecraft:entity.generic.explode, 3" ("" required) means that the mobs within (3 + 1) * (0.3 * FOLLOW_RANGE) are attracted to the sound.
-	#Format: "$chest, 1" ("" required) means that sounds whose name contain "chest" will attract the mobs.
-	#
-	"Sound WhiteList" = ["sona:crate, 1", "minecraft:entity.generic.explode, 3", "$chest, 0"]
-	#The mobs will be attracted by sound.
-	#Format: "minecraft:zombie" ("" required)
-	#By default, all undead mobs will be attracted.
-	#
-	"Attracted Mob WhiteList" = []
-	#The mobs will NOT be attracted by sound.
-	#Format: "minecraft:zombie" ("" required)
-	#
-	"Attracted Mob BlackList" = []
-	#Whether the sprint attracts the mobs.
-	"Sprint Sound" = true
-	#Increased seconds to attract mobs per level of sound.
-	#Range: 1 ~ 100
-	"Increased Seconds" = 5
-
-	["Sound System".Tacz]
-		#Whether the gun in tacz will attract mobs when fire
-		"Tacz Fire Attraction" = true
-		#The range of mobs that will be attracted without silencerFor example, if this value is set to 4, the mobs within 4 * (0.3 * FOLLOW_RANGE) would be attracted to fire sound.
-		#Range: 0 ~ 10
-		"Fire Range" = 4
-		#The range of mobs that will be attracted with silencerFor example, if this value is set to 1, the mobs within 1 * (0.3 * FOLLOW_RANGE) would be attracted to fire sound with silencer.
-		#Range: 0 ~ 10
-		"Silencer Range" = 1
-
 ["Infection System"]
 	#Whether to turn on the infection system.
 	#The Serverside controls the switching of the system and the Clientside controls the display of the HUD.
@@ -190,6 +156,40 @@
 	#If the wax coating is not permanent the number of times it can be used.
 	#Range: > 1
 	"Wax Coating Durability" = 50
+
+["Sound System"]
+	#Whether to turn on the sound system.
+	#This system will cause the mobs attracted by sound.
+	"Turn on Sound System" = true
+	#The sound will attract mobs.
+	#Format: "minecraft:entity.generic.explode, 3" ("" required) means that the mobs within (3 + 1) * (0.3 * FOLLOW_RANGE) are attracted to the sound.
+	#Format: "$chest, 1" ("" required) means that sounds whose name contain "chest" will attract the mobs.
+	#
+	"Sound WhiteList" = ["sona:crate, 1", "minecraft:entity.generic.explode, 3", "$chest, 0"]
+	#The mobs will be attracted by sound.
+	#Format: "minecraft:zombie" ("" required)
+	#By default, all undead mobs will be attracted.
+	#
+	"Attracted Mob WhiteList" = []
+	#The mobs will NOT be attracted by sound.
+	#Format: "minecraft:zombie" ("" required)
+	#
+	"Attracted Mob BlackList" = []
+	#Whether the sprint attracts the mobs.
+	"Sprint Sound" = true
+	#Increased seconds to attract mobs per level of sound.
+	#Range: 1 ~ 100
+	"Increased Seconds" = 5
+
+	["Sound System".Tacz]
+		#Whether the gun in tacz will attract mobs when fire
+		"Tacz Fire Attraction" = true
+		#The range of mobs that will be attracted without silencerFor example, if this value is set to 4, the mobs within 4 * (0.3 * FOLLOW_RANGE) would be attracted to fire sound.
+		#Range: 0 ~ 10
+		"Fire Range" = 4
+		#The range of mobs that will be attracted with silencerFor example, if this value is set to 1, the mobs within 1 * (0.3 * FOLLOW_RANGE) would be attracted to fire sound with silencer.
+		#Range: 0 ~ 10
+		"Silencer Range" = 1
 
 ["Chat System"]
 	#Whether or not players would only chat with each other nearby.
